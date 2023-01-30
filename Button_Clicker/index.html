@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Button Clicker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="fullcontainer">
+        <div class="nav_row">
+            <div class="nav_container">
+                <h1>Dojonary</h1>
+                <input class="search" type=" text" placeholder="Search">
+                <button onclick="LogOut(this)">Login</button>
+            </div>
+        </div>
+        <div class="content">
+            <div class="leftside">
+                <div class="box1">
+                    <div class="box1_likes">
+                        <h2>ninja</h2>
+                        <h3>noun</h3>
+                        <h3><span class="plural">Plural: </span>ninjas</h3>
+                        <input onclick="alert('Ninja was liked')" class="btn" type="button" value="13 likes">
+                    </div>
+                    <div>
+                        <p>A practitioner skilled in the <a
+                                href="https://www.merriam-webster.com/dictionary/ninja">Japanese</a>
+                            art of <a href="https://www.merriam-webster.com/dictionary/ninjutsu">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="box2_likes">
+                        <h2>ninja</h2>
+                        <h3>noun</h3>
+                        <h3><span>Plural: </span>ninjas</h3>
+                        <input onclick="alert('Ninja was liked')" class="btn" type="button" value="37 likes">
+                    </div>
+                    <div>
+                        <p>A <a href="https://www.merriam-webster.com/dictionary/programmer">programmer</a> who breaks
+                            down
+                            problems with <a
+                                href="https://www.merriam-webster.com/dictionary/Zen">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="aside_container">
+                <div class="aside">
+                    <p>Dojonary is defined by <span class="you">YOU</span> </p>
+                    <button class="Add_def" onclick="hide(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

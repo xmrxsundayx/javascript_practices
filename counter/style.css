@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#count {
+    background-color: aqua;
+    color: black;
+    padding: 10px;
+}
