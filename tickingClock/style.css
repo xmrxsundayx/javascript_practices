@@ -1,3 +1,4 @@
+/* I did copy the positioning of the numbers. that was way to difficult to figur out on my own. annndddd I took a lot of new ideas and code from other examples i saw to make my own. hope thats ok */
 body {
     background-color: #282828;
     padding: 0;
@@ -11,6 +12,7 @@ body {
     background-color: #282828;
     margin: 100px auto 0px auto;
     position: relative;
+    /* my new favorite thing about css is this box shadow technique */
     box-shadow: -4px -4px 10px rgba(67,67,67,0.5),
     inset 4px 4px 10px rgba(0,0,0,0.5),
     inset -4px -4px 10px rgba(67,67,67,0.5),

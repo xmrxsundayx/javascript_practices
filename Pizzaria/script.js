@@ -42,11 +42,10 @@ function randomPizza() {
     pizza.suaceType = randomPick(suaceType);
     pizza.cheeses = [];
     pizza.toppings = [];
-
     for(var i = 0; i<randomRange(5,1); i++) {
         pizza.cheeses.push(randomPick(cheeses));
     }
-    for(var i = 0; i<randomRange(5,1); i++) {
+    for(var i = 0; i<randomRange(8,1); i++) {
         pizza.toppings.push(randomPick(toppings));
     }
     return pizza;

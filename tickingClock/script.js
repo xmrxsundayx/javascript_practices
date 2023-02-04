@@ -20,6 +20,7 @@ window.onload = function () {
         const hourDeg = ((hour / 12) * 360);
         hourHand.style.transform = `rotate(${hourDeg}deg)`;
 
+        // saw this on someones clock so i took the idea
         time.innerHTML = '<span>' + '<strong>' + hour + '</strong>' + ' : ' + minute + ' : ' + '<small>' + second + '</small>' + '</span>';
 
     }
